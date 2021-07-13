@@ -5,27 +5,28 @@ module.exports = {
     jest: true,
   },
   extends: [
-    'eslint:recommended',
-    'plugin:react/recommended',
-    'plugin:react-hooks/recommended',
-    'plugin:prettier/recommended',
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:prettier/recommended",
   ],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
     },
     ecmaVersion: 12,
-    sourceType: 'module',
+    sourceType: "module",
   },
-  plugins: ['react'],
+  plugins: ["react", "react-hooks", "prettier"],
   settings: {
     react: {
-      version: 'detect',
+      version: "detect",
     },
   },
   rules: {
-    'react/react-in-jsx-scope': 'off',
-    'no-unused-var': 'off',
-    'react/prop-types': 'off',
+    "prettier/prettier": "error",
+    "react/react-in-jsx-scope": "off",
+    "no-unused-var": "off",
+    "react/prop-types": "off",
   },
 };
