@@ -6,13 +6,10 @@ export default {
   component: Heading,
   args: {
     children: "Texto escuro",
-    //Informando argumento que está sendo recebido
-    light: false,
   },
   argTypes: {
     //Tipo dos argumentos recebidos
     children: { type: "string" },
-    light: { type: "boolean" },
   },
   //Config cor padrão de background
   parameters: {
@@ -23,7 +20,7 @@ export default {
 };
 
 export const Light = (args) => <Heading {...args} />;
-export const Dark = (args) => <Heading {...args} light={true} />;
+export const Dark = (args) => <Heading {...args} />;
 
 //Alteração do background
 Light.parameters = {
@@ -35,4 +32,5 @@ Light.parameters = {
 //Realizando troca do nome
 Dark.args = {
   children: "Texto claro",
+  colorDark: false,
 };
