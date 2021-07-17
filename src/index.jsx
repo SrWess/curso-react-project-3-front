@@ -1,10 +1,10 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import Home from "./templates/App";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Home from './templates/App';
 
-import { ThemeProvider } from "styled-components";
-import { GlobalStyles } from "./styles/global-styles";
-import { theme } from "./styles/theme";
+import { ThemeProvider } from 'styled-components';
+import { GlobalStyles } from './styles/global-styles';
+import { theme } from './styles/theme';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -13,5 +13,5 @@ ReactDOM.render(
       <Home />
     </ThemeProvider>
   </React.StrictMode>,
-  document.getElementById("root")
+  document.getElementById('root'),
 );

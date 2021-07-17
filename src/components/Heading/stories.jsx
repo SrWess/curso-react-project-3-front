@@ -1,20 +1,20 @@
 //Config do componente no storybook
-import { Heading } from ".";
+import { Heading } from '.';
 
 export default {
-  title: "Heading",
+  title: 'Heading',
   component: Heading,
   args: {
-    children: "Texto escuro",
+    children: 'Texto escuro',
   },
   argTypes: {
     //Tipo dos argumentos recebidos
-    children: { type: "string" },
+    children: { type: 'string' },
   },
   //Config cor padrão de background
   parameters: {
     backgrounds: {
-      default: "dark",
+      default: 'dark',
     },
   },
 };
@@ -25,12 +25,12 @@ export const Dark = (args) => <Heading {...args} />;
 //Alteração do background
 Light.parameters = {
   backgrounds: {
-    default: "light",
+    default: 'light',
   },
 };
 
 //Realizando troca do nome
 Dark.args = {
-  children: "Texto claro",
+  children: 'Texto claro',
   colorDark: false,
 };

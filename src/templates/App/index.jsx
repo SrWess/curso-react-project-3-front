@@ -1,5 +1,5 @@
-import { Heading } from "../../components/Heading";
-import * as Styled from "./styles";
+import { Heading } from '../../components/Heading';
+import * as Styled from './styles';
 
 function Home() {
   return (

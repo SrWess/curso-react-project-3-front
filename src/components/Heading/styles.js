@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled, { css } from 'styled-components';
 
 const titleSize = {
   small: (theme) => css`
@@ -24,7 +24,7 @@ const mediaFont = (theme) => css`
 `;
 
 const titleCase = (uppercase) => css`
-  text-transform: ${uppercase ? "uppercase" : "none"};
+  text-transform: ${uppercase ? 'uppercase' : 'none'};
 `;
 
 export const Title = styled.h1`
