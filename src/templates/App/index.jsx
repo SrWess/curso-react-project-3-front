@@ -7,8 +7,6 @@ function Home() {
     <div className="App">
       <Styled.Wrapper>
         <Heading>Hello World!</Heading>
-
-        <LogoLink text="teste" link="#"/>
       </Styled.Wrapper>
     </div>
   );
