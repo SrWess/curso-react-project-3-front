@@ -24,12 +24,12 @@ describe('<MenuLink />', () => {
   });
 
   it('should match snapshot', () => {
-    renderTheme(
+    const { container } = renderTheme(
       <MenuLink link="http://localhost" newTab={false}>
         Children
       </MenuLink>,
     );
-    expect(screen.getByRole('link', { name: 'Children' }))
+    expect(container.firstChild)
       .toMatchInlineSnapshot(`
       .c0 {
         display: block;
