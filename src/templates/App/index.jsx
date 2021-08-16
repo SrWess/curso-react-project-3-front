@@ -1,15 +1,8 @@
-import { Heading } from '../../components/Heading';
-import { LogoLink } from '../../components/LogoLink';
-import * as Styled from './styles';
+import { Base } from '../Base/index';
+import { mockBase } from '../Base/mock';
 
 function Home() {
-  return (
-    <div className="App">
-      <Styled.Wrapper>
-        <Heading>Hello World!</Heading>
-      </Styled.Wrapper>
-    </div>
-  );
+  return <Base {...mockBase} />;
 }
 
 export default Home;

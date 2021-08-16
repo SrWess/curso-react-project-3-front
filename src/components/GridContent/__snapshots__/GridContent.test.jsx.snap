@@ -37,6 +37,10 @@ exports[`<GridContent /> should render grid content 1`] = `
   text-transform: uppercase;
 }
 
+.c5 {
+  font-size: 1.6rem;
+}
+
 @media (max-width:768px) {
   .c3 {
     font-size: 4.0rem;
@@ -62,7 +66,7 @@ exports[`<GridContent /> should render grid content 1`] = `
           class="c4"
         >
           <div
-            class=""
+            class="c5"
           >
             
   
@@ -199,6 +203,10 @@ exports[`<GridContent /> should render grid content 2`] = `
   text-transform: uppercase;
 }
 
+.c5 {
+  font-size: 1.6rem;
+}
+
 @media (max-width:768px) {
   .c3 {
     font-size: 4.0rem;
@@ -224,7 +232,7 @@ exports[`<GridContent /> should render grid content 2`] = `
           class="c4"
         >
           <div
-            class=""
+            class="c5"
           >
             
   

@@ -17,6 +17,10 @@ export const Grid = styled.div`
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: ${theme.spacings.large};
+
+    @media ${theme.media.lteMedium} {
+      grid-template-columns: 1fr;
+    }
   `}
 `;
 
@@ -24,7 +28,7 @@ export const GridElement = styled.div`
   ${({ theme }) => css`
     ${HeadingContainer} {
       position: relative;
-      left: 5rem;
+      padding-left: 5rem;
     }
 
     ${HeadingContainer}::before {
@@ -35,6 +39,7 @@ export const GridElement = styled.div`
       top: -2rem;
       left: -5rem;
       transform: rotate(10deg);
+      padding-left: 5rem;
     }
   `}
 `;
