@@ -5,7 +5,7 @@ import { Footer } from '.';
 describe('<Footer />', () => {
   it('should render', () => {
     const { container } = renderTheme(
-      <Footer html={'<h1>Test component</h1>'} />,
+      <Footer footerHtml={'<h1>Test component</h1>'} />,
     );
     expect(
       screen.getByRole('heading', { name: 'Test component' }),
