@@ -533,7 +533,7 @@
       "_id": "60d0f009f53e322e22b63ca5",
       "logo_text": "Landing Page",
       "logo_link": "#home",
-      "menu_link": [
+      "menu": [
         {
           "open_in_new_tab": false,
           "_id": "60d0f00af53e322e22b63ca6",

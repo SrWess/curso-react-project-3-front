@@ -9,9 +9,6 @@ describe('map-data', () => {
     expect(pagesData.footerHtml).toBe('');
     expect(pagesData.slug).toBe('');
     expect(pagesData.title).toBe('');
-    //Toda vez que for realizar uma verificação de um array ou obj, utilizar .toEqual()
-    expect(pagesData.sections).toEqual([]);
-    expect(pagesData.menu).toEqual({});
   });
 
   //Mapeando quando tiver dados
@@ -20,9 +17,7 @@ describe('map-data', () => {
       {
         footer_text: '<p>Teste</p>',
         slug: 'slug',
-        title: 'title',
-        sections: [1, 2, 3, 4],
-        menu: { a: 'b' },
+        title: 'title'
       },
     ])[0];
 
@@ -30,8 +25,5 @@ describe('map-data', () => {
     expect(pagesData.footerHtml).toBe('<p>Teste</p>');
     expect(pagesData.slug).toBe('slug');
     expect(pagesData.title).toBe('title');
-    // Toda vez que for realizar uma verificação de um array ou obj, utilizar .toEqual()
-    expect(pagesData.sections).toEqual([1, 2, 3, 4]);
-    expect(pagesData.menu).toEqual({ a: 'b' });
   });
 });

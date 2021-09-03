@@ -1,4 +1,4 @@
-const mapData = (pagesData = [{}]) => {
+ export const mapData = (pagesData = [{}]) => {
   return pagesData.map((data) => {
     const {
       footer_text = '',
@@ -17,7 +17,3 @@ const mapData = (pagesData = [{}]) => {
     };
   });
 };
-
-const dados = require('./dados.json')
-
-console.log(mapData(dados))
