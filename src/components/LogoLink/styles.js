@@ -8,7 +8,7 @@ export const Container = styled.a`
     align-items: center;
 
     > img {
-      max-height: 3rem;
+      height: 3rem;
     }
   `}
 `;
