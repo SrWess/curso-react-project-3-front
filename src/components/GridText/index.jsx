@@ -5,16 +5,26 @@ import { SectionBackground } from '../SectionBackground';
 import { Heading } from '../Heading';
 import { TextComponent } from '../TextComponent';
 
-export const GridText = ({ title, description, grid, background = false }) => {
+export const GridText = ({
+  title,
+  description,
+  grid,
+  background = false,
+  sectionId = '',
+}) => {
   return (
-    <SectionBackground background={background}>
+    <SectionBackground background={background} sectionId={sectionId}>
       <Styled.Container>
-        <Heading size="huge" uppercase colorDark={!background} as="h2">{title}</Heading>
+        <Heading size="huge" uppercase colorDark={!background} as="h2">
+          {title}
+        </Heading>
         <TextComponent>{description}</TextComponent>
         <Styled.Grid>
           {grid.map((element) => (
             <Styled.GridElement key={element.title}>
-              <Heading size="medium" colorDark={!background} as="h3">{element.title}</Heading>
+              <Heading size="medium" colorDark={!background} as="h3">
+                {element.title}
+              </Heading>
               <TextComponent>{element.description}</TextComponent>
             </Styled.GridElement>
           ))}
@@ -32,6 +42,7 @@ GridText.propTypes = {
       title: P.string.isRequired,
       description: P.string.isRequired,
     }),
-    ).isRequired,
-    background: P.bool
+  ).isRequired,
+  background: P.bool,
+  sectionId: P.string,
 };
