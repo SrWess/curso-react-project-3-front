@@ -3,9 +3,12 @@ import { Title } from '../Heading/styles';
 
 export const Container = styled.div`
   ${({ theme }) => css`
+    width: 80%;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;
+    justify-content: space-between;
     gap: ${theme.spacings.large};
 
     @media ${theme.media.lteMedium} {
@@ -27,8 +30,11 @@ export const TextContainer = styled.div`
   `}
 `;
 
-export const ImageContainer = styled.p`
-  ${({ theme }) => css``}
+export const ImageContainer = styled.div`
+  ${({ theme }) => css`
+    width: 80%;
+    margin: 0 auto;
+  `}
 `;
 
 export const Image = styled.img`
