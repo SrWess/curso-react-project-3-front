@@ -22,7 +22,7 @@ exports[`<Menu /> should not render links 1`] = `
 }
 
 .c8 > img {
-  max-height: 3rem;
+  height: 3rem;
 }
 
 .c7 {
@@ -246,7 +246,7 @@ exports[`<Menu /> should render logo and Main menu nav 1`] = `
 }
 
 .c8 > img {
-  max-height: 3rem;
+  height: 3rem;
 }
 
 .c7 {

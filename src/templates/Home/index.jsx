@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom';
 
 import { mapData } from '../../api/map-data';
 
-import { GridTwoColumn } from '../../components/GridTwoColumn';
+import { GridTwoColumns } from '../../components/GridTwoColumns';
 import { GridContent } from '../../components/GridContent';
 import { GridText } from '../../components/GridText';
 import { GridImage } from '../../components/GridImage';
@@ -37,7 +37,7 @@ function Home() {
     };
 
     load();
-  }, []);
+  }, [location]);
 
   if (data === undefined) {
     return <PageNotFound />;
@@ -62,7 +62,7 @@ function Home() {
         const key = `${slug}-${index}`;
 
         if (component === 'section.section-two-columns') {
-          return <GridTwoColumn key={key} {...section} />;
+          return <GridTwoColumns key={key} {...section} />;
         }
 
         if (component === 'section.section-content') {
