@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+<p align="center">
+  <img src=".github/landing-page-front.png" alt="Landing Page Front End" />
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+## 📄 Landing Page - Projeto 03
+Desenvolvido durante curso de react.js afim de aprimorar e obter novos conhecimentos. Se trata de uma landing page simples, com foco mais no desenvolvimento do que no layout em si.
 
-### `yarn start`
+> ⚠️ Projeto em desenvolvimento e utilizado para testes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🚀 Tecnologias
+As seguintes tecnologias foram utilizadas no desenvolvimento do projeto
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- React
+- React Router Dom
+- Styled Components
+- Storybook
+- Jest
 
-### `yarn test`
+## 👷 Como usar
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para executar o projeto basta realizar o clone desse projeto com seguinte comando:
 
-### `yarn build`
+- Faça o clone desse repositório `git clone https://github.com/SrWess/curso-react-project-3-front.git`
+- Acesse a pasta `cd curso-react-project-3-front`
+- Instale as dependências `yarn install` ou `npm install`
+- Para acessar a aplicação execute: `yarn start` ou `npm start`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para página funcionar corretamente é necessário que realize o clone do backend que foi desenvolvido com Strapi CMS, procedimentos:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Faça o clone desse repositório `git clone https://github.com/SrWess/curso-react-project-3-backend.git`
+- Acesse a pasta `cd curso-react-project-3-backend`
+- Instale as dependências `yarn install` ou `npm install`
+- Executando aplicação `yarn develop` ou `npm develop`
+- Acessar seguinte endereço para ter acesso ao CMS: `http://localhost:1337/admin`
+- Email de acesso: `srwess@protonmail.com` / Senha: `Admin1234`
+- Após isso terá acesso ao CMS da página landing-page na qual foi criada
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Visualização da página é no endereço: `http://localhost:3000`
+- Portal CMS: `http://localhost:1337`
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🔗 Projeto Back-End
+- [Acessar projeto](https://github.com/SrWess/curso-react-project-3-backend)
