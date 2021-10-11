@@ -1,5 +1,5 @@
 export default {
-  url: 'http://localhost:1337/pages/?slug=',
+  url: 'https://strapi-landing-page-project-1.herokuapp.com/pages/?slug=',
   siteName: 'Curso React - Projeto 3',
   defaultSlug: 'landing-page'
 }
